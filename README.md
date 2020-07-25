@@ -13,12 +13,3 @@ The Project can be used for following purposes:
     After training the model on the dataset, use [prediction.py](Classes/predict_ct_scan.py) to test on any lung ct scan image, the program will first resize the image to 150 x 150 pixel size, then loads the image into model and print the type of scan(Covid-19 or Normal Scan). It should be noted that the prediction of model is based on these parameters: Training Accuracy, Training Loss, Validation Accuracy and Validation Loss for the given dataset and the trained model architecture.
 
 Detects Covid-19 Pneumonia signs from CT Scan Images by a CNN Model. The model have a uniform dataset of 764 Images of CT Scan which consist 349 Images of Covid-19 Pneumonia affected patients and remaining shows normal patient scans.
-Here are some CT-Scans of lungs:
-
-COVID19 Patient Scan:
-
-![alt text](C:/Users/AYUSH MISHRA/Desktop/covid19_ct_scan.png "CT Scan1")
-
-Normal Patient Scan:
-
-![alt text](C:/Users/AYUSH MISHRA/Desktop/normal_ct_scan.png "CT Scan2")

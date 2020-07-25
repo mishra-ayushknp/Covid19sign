@@ -17,8 +17,8 @@ Here are some CT-Scans of lungs:
 
 COVID19 Patient Scan:
 
-![alt text](C:\Users\AYUSH MISHRA\Desktop\covid19_ct_scan.png "CT Scan1")
+![alt text](C:/Users/AYUSH MISHRA/Desktop/covid19_ct_scan.png "CT Scan1")
 
 Normal Patient Scan:
 
-![alt text](C:\Users\AYUSH MISHRA\Desktop\normal_ct_scan.png "CT Scan2")
+![alt text](C:/Users/AYUSH MISHRA/Desktop/normal_ct_scan.png "CT Scan2")

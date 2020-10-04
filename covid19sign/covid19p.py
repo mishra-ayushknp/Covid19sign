@@ -5,7 +5,7 @@ import cv2
 import random
 import pickle
 
-t_d = []
+t_data = []
 ddir = "C:\\Users\\AYUSH MISHRA\\Desktop" # Path directory where the dataset is stored. 
 categories = ["COVID19","NORMAL"]  # covid19 and Normal datset .
 for c in categories :
@@ -15,11 +15,11 @@ for c in categories :
         img = cv2.imread(os.path.join(path,i),cv2.IMREAD_GRAYSCALE)  
         img_resize = cv2.resize(img,(150,150))   #  resizing the image into (150,150)
         t_d.append([img_resize,c_n])
-random.shuffle(t_d)                # shuffling the data in random manner
-print(len(t_d))      # printing the length of the training data
+random.shuffle(t_data)                # shuffling the data in random manner
+print(len(t_data))      # printing the length of the training data
 x = []
 y = []
-for f , l in t_d :
+for f , l in t_data :
     x.append(f)
     y.append(l)
 xe = np.array(x).reshape(-1,150,150,1)    # reshaping the image into four dimension
